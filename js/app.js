@@ -26,62 +26,62 @@ const app = new Vue({
         ],
 
         texts: [{
-                title: "¿Quiénes somos?",
-                paragraph: "Frutos  Del Campo, es una Cooperativa de Trabajo Asociado. Especializada en la producción de Papaya de la más alta calidad, constituida en el año 2018 en la ciudad de Villavicencio Departamento del Meta Colombia, formada por un grupo de agricultores e ingenieros, con más de 15 años de experiencia en la siembra, producción, distribución y comercialización de papaya a nivel nacional e internacional.",
+                title: "¿Who we are?",
+                paragraph: "Fruits of the field, is a worker cooperative. Specialized in the production of Papaya of the highest quality, established in 2018 in the city of Villavicencio, Department of Meta Colombia, formed by a group of farmers and engineers, with more than 15 years of experience in planting, production, distribution and marketing of papaya nationally and internationally.",
             },
             {
-                title: "Misión",
-                paragraph: "1) Que todos nuestros cultivos sean amigables con el medio ambiente. 2) Implementar la más alta tecnología en nuestros Cultivos y Planta Empacadora. 3) Ofrecer el mejor producto a nuestros clientes. 4) Mantener un ambiente de trabajo y un modelo de vida saludable para el ser humano, manteniendo una altísima responsabilidad social en el desarrollo de nuestras actividades.",
+                title: "Mission",
+                paragraph: "1) That all our crops are environmentally friendly. 2) To implement the highest technology in our crops and packing plant. 3) To offer the best product to our customers. 4) To maintain a work environment and a healthy life model for the human being, keeping a high social responsibility in the development of our activities.",
             },
             {
-                title: "Visión",
-                paragraph: "Ser reconocidos a nivel mundial como la mejor empresa productora, distribuidora y comercializadora de papaya y ente integrador de los productores de Papaya en Colombia, enfocándolos en la economía a escala, prestándoles asistencia técnica y capacitación para sus colaboradores.",
+                title: "Vision",
+                paragraph: "To be recognized worldwide as the best producer, distributor and marketer of papaya and integrator of papaya producers in Colombia, focusing on the economy at scale, providing technical assistance and training for its employees.",
             },
         ],
 
         texts2: [{
-                title: "Planta empacadora",
-                paragraph: "Certificada por el ICA con Código No EMP 500016, Capacidad de empaque de 2 contenedores diarios, (40.800 Kilos), donde manejamos los más altos estándares de calidad, Bioseguridad e inocuidad del producto.",
+                title: "Packing plant",
+                paragraph: "Certified by the ICA with Code No EMP 500016, packing capacity of 2 containers per day, (40,800 Kg), where we handle the highest standards of quality, biosafety and product safety.",
             },
             {
-                title: "Cultivo",
-                paragraph: "Certificado por el ICA con código N 500017, Único en el país con sistema eficiente de fertirriego y emplasticado, trabajamos con agricultura de precisión, Buenas Practicas Agricolas por eso nuestros cultivos son amigables con el medio ambiente y 100% sostenibles.",
+                title: "Crop",
+                paragraph: "Certified by the ICA with code N 500017, the only one in the country with efficient fertigation and emplasticado system, we work with precision agriculture, Good Agricultural Practices so our crops are environmentally friendly and 100% sustainable.",
             },
             {
-                title: "Calidad",
-                paragraph: "En Frutos del Campo estamos comprometidos con la calidad, ya que trabajamos nuestros cultivos con tecnología, siendo la empresa líder en innovación, por esa razón nuestros procesos operativos van enfocados a la agricultura limpia, a la inocuidad de nuestros productos, y al cuidado del medio ambiente, siendo nuestros cultivos totalmente sostenibles.",
+                title: "Quality",
+                paragraph: "In Frutos del Campo we are committed to quality, since we work our crops with technology, being the leading company in innovation, for that reason our operational processes are focused on clean agriculture, the safety of our products, and the care of the environment, being our crops totally sustainable.",
             },
         ],
 
         certificadoDescargas: [{
                 title: "No. 505730167",
-                paragraph: "Registro como predio productor de las siguientes especies vegetales para la exportación en fresco: Papaya (Carica Papaya), en un área de ocho (8) hectáreas y Plátano (Musa Paradisiaca), con siete (7) hectáreas.",
+                paragraph: "Registration as a producer of the following plant species for fresh export: Papaya (Carica Papaya), in an area of eight (8) hectares and Banana (Musa Paradisiaca), with seven (7) hectares.",
                 file: "./Files/RegistroNo505730167.pdf",
             },
             {
                 title: "No. 500016",
-                paragraph: "Registro como planta empacadora de vegetales para la exportación en fresco a la empresa COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO.- FRUTOS DEL CAMPO CTA",
+                paragraph: "Registration of the company COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO - FRUTOS DEL CAMPO CTA as a packing plant of vegetables for fresh export.",
                 file: "./Files/RegistroNo500016.pdf",
             },
             {
                 title: "No. 500017",
-                paragraph: "Registro como exportador de vegetales frescos a la empresa COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO.- FRUTOS DEL CAMPO CTA",
+                paragraph: "Registration as exporter of fresh vegetables to the company COOPERATIVA DE TRABAJO ASOCIADO FRUTOS DEL CAMPO - FRUTOS DEL CAMPO CTA.",
                 file: "./Files/RegistroNo500017.pdf",
             },
 
         ],
 
         texts4: [{
-                title: "Cultivo",
-                paragraph: "Certificado por el ICA con código N 500017, Único en el país con sistema eficiente de fertirriego y emplasticado, trabajamos con agricultura de precisión, Buenas Practicas Agricolas por eso nuestros cultivos son amigables con el medio ambiente y 100% sostenibles.",
+                title: "Crop",
+                paragraph: "Certified by the ICA with code N 500017, the only one in the country with efficient fertigation and emplasticado system, we work with precision agriculture, Good Agricultural Practices so our crops are environmentally friendly and 100% sustainable.",
             },
             {
-                title: "Planta",
-                paragraph: "Poseemos una planta empacadora con suficiencia de 40.800kilos donde manejamos estandares de calidad y bioseguridad tanto al producto como para el trabajador.",
+                title: "Plant",
+                paragraph: "We have a packing plant with a capacity of 40,800kg where we manage quality and biosecurity standards for both the product and the worker.",
             },
             {
-                title: "Exportación",
-                paragraph: "Poseemos infraestructura para exportación con altos estándares de calidad, bioseguridad e inocuidad de la Papaya Tainung.",
+                title: "Expor",
+                paragraph: "We have infrastructure for export with high standards of quality, biosafety and innocuousness of the Tainung Papaya..",
             },
         ],
         swiperImagenes: null

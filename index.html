@@ -6,7 +6,7 @@
     <meta name="description" content="Frutas de la mejor calidad al mejor precio, estamos en más de 5 paises y orgullosamente Colombianos" />
     <meta name="robots" content="index, follow" />
     <link rel="shortcut icon" href="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624395247/img/logo_befaif.png">
-    <title>Frutos del campo CTA | 100% Colombiano</title>
+    <title>Fruits of the field | 100% Colombian</title>
     <meta name="viewport" content="width=device-width, inictial-scale=1.0" />
     <!-- Fuentes  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -43,7 +43,7 @@
                     <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1626112234/img/logo-02_bibolg.png" alt="Logo">
                 </div>
                 <div class="orgullo">
-                    <p>Orgullosamente <br><strong>Colombianos</strong></p>
+                    <p>Proudly <br><strong>Colombians</strong></p>
                 </div>
             </a>
 
@@ -56,39 +56,39 @@
                     </svg>
                 </div>
 
-                <p class="op">Cambia tu idioma</p>
+                <p class="op">Change your language</p>
                 <div class="idioma" v-on:click="cambiarIdioma">
-                    <strong>ES</strong>
-                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624397454/img/colombia_muoy2a.png" alt="español" class="bandera">
+                    <strong>EN</strong>
+                    <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624397454/img/estados_u_n5jx4g.png" alt="Ingles" class="bandera">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
-                    <a href="https://fruitsofthefield.com">
+                    <a href="https://frutosdelcampocta.com">
                         <div :class="lenguaje">
-                            <strong>EN</strong>
-                            <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624397454/img/estados_u_n5jx4g.png" alt="Ingles" class="bandera">
+                            <strong>ES</strong>
+                            <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624397454/img/colombia_muoy2a.png" alt="español" class="bandera">
                         </div>
                     </a>
                 </div>
 
 
                 <a href="#inicio" v-on:click="toggleCollapsed">
-                    <li>Inicio</li>
+                    <li>Home</li>
                 </a>
                 <a href="#quienes" v-on:click="toggleCollapsed">
-                    <li>Quiénes somos</li>
+                    <li>Who we are</li>
                 </a>
                 <a href="#expor" v-on:click="toggleCollapsed">
-                    <li>Exportación</li>
+                    <li>Export</li>
                 </a>
                 <a href="#certifi" v-on:click="toggleCollapsed">
-                    <li>Certificados</li>
+                    <li>Certificates</li>
                 </a>
                 <a href="#galeria" v-on:click="toggleCollapsed">
-                    <li>Galería</li>
+                    <li>Gallery</li>
                 </a>
                 <a href="#contacto" v-on:click="toggleCollapsed">
-                    <li>Contacto</li>
+                    <li>Contact</li>
                 </a>
             </ul>
             <div class="menu__movil" v-on:click="toggleCollapsed">
@@ -103,18 +103,18 @@
         <main>
             <section class="inicio" id="inicio">
                 <div class="info">
-                    <h1>Frutos
+                    <h1>Fruits
                         <br>
-                        <strong>del campo CTA</strong>
+                        <strong>of the field </strong>
                     </h1>
-                    <p>Empresa dedicada a la producción de Papaya tipo de exportación de alta calidad desde el campo colombiano. Con amplia trayectoria en siembra, producción, distribución y comercialización del mismo.
+                    <p>Company dedicated to the production of high quality export type Papaya from the Colombian countryside. With extensive experience in planting, production, distribution and marketing of the same.
                     </p>
                     <div class="inicio__info">
                         <a href="#contact" class="boton__info">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                            </svg> Contáctanos
+                            </svg> Contact us
                         </a>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
 
 
             <section class="partners">
-                <h2 class="titulo__partners">Nuestros aliados</h2>
+                <h2 class="titulo__partners">Our allies</h2>
                 <div class="partners-container">
                     <div class="swiper-container cambiar__logos">
                         <div class="swiper-wrapper">
@@ -177,10 +177,9 @@
                             </div>
                         </transition>
                         <div class="buttons-container">
-                            <a v-on:click="mostrarTexto1(0)" style="cursor: pointer; " :class="getClase(0)">¿Quiénes
-                                somos?</a>
-                            <a v-on:click="mostrarTexto1(1)" style="cursor: pointer;" :class="getClase(1)">Misión</a>
-                            <a v-on:click="mostrarTexto1(2)" style="cursor: pointer;" :class="getClase(2)">Visión</a>
+                            <a v-on:click="mostrarTexto1(0)" style="cursor: pointer; " :class="getClase(0)">¿Who we are?</a>
+                            <a v-on:click="mostrarTexto1(1)" style="cursor: pointer;" :class="getClase(1)">Mission</a>
+                            <a v-on:click="mostrarTexto1(2)" style="cursor: pointer;" :class="getClase(2)">Vision</a>
                         </div>
                     </div>
                     <div class="quienes-somos-button" v-on:click="adelante1">
@@ -213,9 +212,9 @@
                             </div>
                         </transition>
                         <div class="buttons-container">
-                            <a v-on:click="mostrarTexto2(0)" style="cursor: pointer; " :class="getClase2(0)">Planta</a>
-                            <a v-on:click="mostrarTexto2(1)" style="cursor: pointer;" :class="getClase2(1)">Cultivo</a>
-                            <a v-on:click="mostrarTexto2(2)" style="cursor: pointer;" :class="getClase2(2)">Calidad</a>
+                            <a v-on:click="mostrarTexto2(0)" style="cursor: pointer; " :class="getClase2(0)">Plant</a>
+                            <a v-on:click="mostrarTexto2(1)" style="cursor: pointer;" :class="getClase2(1)">Crop</a>
+                            <a v-on:click="mostrarTexto2(2)" style="cursor: pointer;" :class="getClase2(2)">Quality</a>
                         </div>
                     </div>
                     <div class="calidad-button" v-on:click="adelante2">
@@ -239,11 +238,11 @@
                     <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624923597/img/papaya-01_xzi3rs.png" alt="Portada" />
                 </div>
                 <div class="exportacion-info">
-                    <h2>Exportación</h2>
+                    <h2>Export</h2>
                     <h4>Papaya Tainung</h4>
-                    <p>Fruta tropical conocida comúnmente como Papaya o lechosa, variedad Tainung, fruto carnoso de textura suave y alto contenido de agua, característico por su pulpa de color naranja intenso, su fresco y dulce sabor. </p>
+                    <p>Tropical fruit commonly known as Papaya or milky, Tainung variety, fleshy fruit of soft texture and high water content, characteristic for its intense orange pulp, its fresh and sweet flavor.</p>
                     <div class="descargar">
-                        <a href="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625954718/img/PapayaFichaTecnica_omzgpx.jpg" class="boton__info" target="bank">Descargar ficha técnica<svg class="w-6 h-6" fill="none"
+                        <a href="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1625954718/img/PapayaFichaTecnica_omzgpx.jpg" class="boton__info" target="bank">Download data sheet<svg class="w-6 h-6" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
@@ -258,16 +257,15 @@
             <section class="certificate">
                 <div class="certificate__container">
                     <div class="certificate-info">
-                        <h3>Certificados</h3>
-                        <h2><strong>Registro ICA</strong></h2>
+                        <h3>Certificates</h3>
+                        <h2><strong>Register ICA</strong></h2>
 
                         <transition name="fade" mode="out-in">
                             <div v-for="(certificadoDescarga, index) in certificadoDescargas" v-if="posicionActual3 == index" :key="certificadoDescarga.title">
                                 <h4>{{ certificadoDescarga.title }}</h4>
                                 <p>{{ certificadoDescarga.paragraph }}</p>
                                 <div class="descargar-certificado">
-                                    <a :href="certificadoDescarga.file" target="bank" class="boton__info">Descargar
-                                        certificado<svg class="w-6 h-6" fill="none" stroke="currentColor"
+                                    <a :href="certificadoDescarga.file" target="bank" class="boton__info">Download certificate<svg class="w-6 h-6" fill="none" stroke="currentColor"
                                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4">
@@ -301,7 +299,7 @@
 
             <section class="certigallery">
                 <div class="title-container">
-                    <h2 class="certigallery-title">Certificaciones en proceso</h2>
+                    <h2 class="certigallery-title">Certifications in process</h2>
                 </div>
                 <div class="container-certigallery">
                     <div class="container-img">
@@ -374,20 +372,18 @@
                     </div>
                     <div class="right-container">
                         <div class="info__contact">
-                            <h1>Dirección </h1>
+                            <h1>Address</h1>
                             <a href="https://goo.gl/maps/RLsaEJYfEo4nJcMWA" target="_blank">Carrera 36 Numero 33B-11</a>
                             <a href="https://goo.gl/maps/RLsaEJYfEo4nJcMWA" target="_blank">Villavicencio, Meta -
                                 Colombia</a>
                             <br>
-                            <h1>Teléfono</h1>
-                            <a href="tel:+573133770824" class="llamada" target="_blank"><strong> Telefono Atención al
-                                    cliente:
+                            <h1>Telephone</h1>
+                            <a href="tel:+573133770824" class="llamada" target="_blank"><strong> customer service hotline:
                                 </strong>+57 3133770824</a>
-                            <a href="tel:+570386666666" class="llamada" target="_blank"><strong> Telefono
-                                    Administrativo:
+                            <a href="tel:+570386666666" class="llamada" target="_blank"><strong> administrative telephone:
                                 </strong>+57 3219815307</a>
                             <br>
-                            <h1>Correo Electrónico</h1>
+                            <h1>E-mail address</h1>
                             <a href="mailto:contacto@frutosdelcampocta.com" class="llamada" target="_blank">contacto@frutosdelcampocta.com</a>
                         </div>
                         <div class="buttons-container">
@@ -402,13 +398,13 @@
                 </div>
                 <div class="footer">
                     <div class="footer__info">
-                        <p>© Frutos del campo 2021</p>
+                        <p>© Fruits of the field 2021</p>
                         <a href="http://developmentm.com" class="marca" target="_blank">Powered by:
                             <img src="https://res.cloudinary.com/desarrollofrutosdelcampo/image/upload/v1624420438/img/logo_marca-01_wzymsm.svg"
                                 alt="Logo M development" class="marca__desarrollo">
                         </a>
                         <div class="redes__sociales">
-                            <p>Síguenos:</p>
+                            <p>Follow us:</p>
                             <a href="https://www.facebook.com/Frutos-Del-Campo-CTA-106636288364323" target="_blank"><span data-v-6296d154=""
                                     aria-label="Facebook icon" role="img"><svg data-v-6296d154="" fill="currentColor"
                                         viewBox="0 0 25 25">
