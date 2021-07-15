@@ -41,7 +41,7 @@ const app = new Vue({
 
         texts2: [{
                 title: "Packing plant",
-                paragraph: "Certified by the ICA with Code No EMP 500016, packing capacity of 2 containers per day, (40,800 Kg), where we handle the highest standards of quality, biosafety and product safety.",
+                paragraph: "We have a packing plant with a daily packing capacity of 40,800 kilos where we manage quality and biosafety standards for both the product and the worker.",
             },
             {
                 title: "Crop",
@@ -77,7 +77,7 @@ const app = new Vue({
             },
             {
                 title: "Plant",
-                paragraph: "We have a packing plant with a daily packing capacity of 40,800 kilos where we manage quality and biosafety standards for both the product and the worker.",
+                paragraph: "We have a packing plant with a capacity of 40,800kg where we manage quality and biosecurity standards for both the product and the worker.",
             },
             {
                 title: "Expor",
