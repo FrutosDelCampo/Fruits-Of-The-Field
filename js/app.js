@@ -27,7 +27,7 @@ const app = new Vue({
 
         texts: [{
                 title: "¿Who we are?",
-                paragraph: "Fruits of the field, is a worker cooperative. Specialized in the production of Papaya of the highest quality, established in 2018 in the city of Villavicencio, Department of Meta Colombia, formed by a group of farmers and engineers, with more than 15 years of experience in planting, production, distribution and marketing of papaya nationally and internationally.",
+                paragraph: "Fruits Of The Field, is a Worker Cooperative. Specialized in the production and sale of Papaya of the highest quality, established in the city of Villavicencio, Department of Meta Colombia, formed by a group of farmers and engineers, with more than 15 years of experience in the planting, production, distribution and marketing of papaya nationally and internationally.",
             },
             {
                 title: "Mission",
@@ -55,7 +55,7 @@ const app = new Vue({
 
         certificadoDescargas: [{
                 title: "No. 505730167",
-                paragraph: "Registration as a producer of the following plant species for fresh export: Papaya (Carica Papaya), in an area of eight (8) hectares and Banana (Musa Paradisiaca), with seven (7) hectares.",
+                paragraph: "Registration as a producer of fresh vegetables for export: Papaya (Carica Papaya).",
                 file: "./Files/RegistroNo505730167.pdf",
             },
             {
@@ -77,11 +77,11 @@ const app = new Vue({
             },
             {
                 title: "Plant",
-                paragraph: "We have a packing plant with a capacity of 40,800kg where we manage quality and biosecurity standards for both the product and the worker.",
+                paragraph: "We have a packing plant with a daily packing capacity of 40,800 kilos where we manage quality and biosafety standards for both the product and the worker.",
             },
             {
                 title: "Expor",
-                paragraph: "We have infrastructure for export with high standards of quality, biosafety and innocuousness of the Tainung Papaya..",
+                paragraph: "1) We have all the logistics and documentation required to export Papaya, currently we export to North America (Canada). 2) We have infrastructure for export with high standards of quality, biosecurity and safety of Papaya.",
             },
         ],
         swiperImagenes: null
