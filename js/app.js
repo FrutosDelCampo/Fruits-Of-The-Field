@@ -77,7 +77,7 @@ const app = new Vue({
             },
             {
                 title: "Plant",
-                paragraph: "We have a packing plant with a capacity of 40,800kg where we manage quality and biosecurity standards for both the product and the worker.",
+                paragraph: "We have a packing plant with a daily packing capacity of 40,800 kilos where we manage quality and biosafety standards for both the product and the worker.",
             },
             {
                 title: "Expor",
