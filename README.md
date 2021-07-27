@@ -4,5 +4,5 @@ Company dedicated to planting, harvesting, post-harvesting and packing of Papaya
 
 Developed by MSolutionTech, directed by:
 
-Michael Esteven Rodríguez García - https://github.com/maiikol1192
-Juan Esteban Sanchez Manrique - https://github.com/JuanesManrique
+- Michael Esteven Rodríguez García - https://github.com/maiikol1192
+- Juan Esteban Sanchez Manrique - https://github.com/JuanesManrique
